@@ -27,10 +27,15 @@ addButtonEl.addEventListener("click", function () {
 })
 
 onValue(shoppingListDB, function (snapshot) {
-    let itemList = Object.entries(snapshot.val()) // itemList is an array of array consist of key, value pair
-    clearShoppingListEl();
-    for (let item of itemList) {
-        appendShoppingList(item); // This is passing each key, value pair as a single whole unit of an array
+    if (snapshot.exists()) {
+        let itemList = Object.entries(snapshot.val()) // itemList is an array of array consist of key, value pair
+        clearShoppingListEl();
+        for (let item of itemList) {
+            appendShoppingList(item); // This is passing each key, value pair as a single whole unit of an array
+        }
+    }
+    else {
+        shoppingListEl.innerHTML = "No items here... yet"
     }
 })
 
