@@ -53,7 +53,7 @@ function appendShoppingList(itemName) {
     let newEl = document.createElement("li")
     newEl.textContent = itemValue
     newEl.addEventListener("click", function () {
-        let itemDb = ref(database, `shoppingList/${itemId}`)
+        let itemDb = ref(database, `testingList/${itemId}`)
         remove(itemDb)
         // clearShoppingListEl();
     })
