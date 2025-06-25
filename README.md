@@ -1,14 +1,14 @@
 # Cute Cat Arc (Basket)
 
-This is a web-app made from simple HTML, CSS, JavaScript. The project has been published into Netlify, so it is accessable through any mobile [Click Here](cute-cat-arc.netlify.app)
+This web app is made from simple HTML, CSS, and JavaScript. The project has been published on Netlify, so it is accessible through any mobile [Click Here](https://cute-cat-arc.netlify.app)
 
 ## ✨ App Functionality
 
-1. The website is connected to a Firebase database so you can get the data from anywhere you want.
+1. The website is connected to a Firebase database, so you can access the data from anywhere.
 
-2. It works as an application to remind you your shopping-list.
+2. It works as an application to remind you of your shopping list.
 
-3. The code is right here so feel free to add functionality if you like by making a branch
+3. The code is right here, so feel free to add functionality if you like by making a branch
 
 ## 🛠️ Technologies Used
 
@@ -19,7 +19,7 @@ This is a web-app made from simple HTML, CSS, JavaScript. The project has been p
 
 ## 🧪 How It Works
 
-1. User types an item in the input field.
+1. The user types an item in the input field.
 
 2. Upon clicking "Add to cart", the item is pushed to the Firebase DB.
 
@@ -33,4 +33,4 @@ This is a web-app made from simple HTML, CSS, JavaScript. The project has been p
 
 2. Google Fonts – Rubik
 
-## ⚠️ Security Note: The Firebase database used is open to read/write operations for demo/testing purposes. For production, ensure proper authentication and database rules are set up to avoid unauthorized access in real world.
+## ⚠️ Security Note: The Firebase database used is open to read/write operations for demo/testing purposes. For production, ensure proper authentication and database rules are set up to avoid unauthorized access in real-world scenarios.
